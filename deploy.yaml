@@ -21,8 +21,8 @@ spec:
               protocol: TCP
           resources:
             limits:
-              memory: "1024Mi"
-              cpu: "500m"
+              memory: "500Mi"
+              cpu: "200m"
 ---
 kind: Service
 apiVersion: v1
